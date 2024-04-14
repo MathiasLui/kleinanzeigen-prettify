@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kleinanzeigen Prettify
 // @namespace    http://tampermonkey.net/
-// @version      1
+// @version      2
 // @description  Make Kleinanzeigen prettier
 // @author       Matty
 // @match        https://*.kleinanzeigen.de/*
@@ -109,6 +109,11 @@
     #my_messages-top-banner*/
 
     /* These selectors are used by Kleinanzeigen themselves */
+    .liberty-cls-improved,
+    [data-liberty-position-name=srpb-top-banner],
+    [data-liberty-position-name=zsrp-top-banner],
+    [data-liberty-position-name=soi-top-banner],
+    [data-liberty-position-name^=vip][data-liberty-position-name$=gallery],
     [data-liberty-position-name=home-billboard],
     [data-liberty-position-name^=my][data-liberty-position-name$=top-banner],
     [data-liberty-position-name^=vip][data-liberty-position-name$=billboard]
