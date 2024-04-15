@@ -143,8 +143,6 @@
         border-radius: 10px !important;
     }
 
-    .p[]
-
     /* Own classes */
     .mat-deleted-div,
     .mat-reserved-div {
