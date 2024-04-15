@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kleinanzeigen Prettify
 // @namespace    http://tampermonkey.net/
-// @version      2
+// @version      3
 // @description  Make Kleinanzeigen prettier
 // @author       Matty
 // @match        https://*.kleinanzeigen.de/*
